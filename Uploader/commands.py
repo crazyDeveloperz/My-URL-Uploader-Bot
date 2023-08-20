@@ -126,6 +126,6 @@ async def myplans(_, m: Message):
 
     return await m.reply_text(
         Translation.PLANS,
-        reply_markup=Translation.BUTTONS,
+        reply_markup=Translation.PBUTTONS,
         disable_web_page_preview=True,
     )
