@@ -32,19 +32,19 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
 
 ➠ sᴇɴᴅ /showthumb ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.</b>"""
     ABOUT_TEXT = """
-**Mʏ ɴᴀᴍᴇ** : [ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ](http://t.me/)
+Mʏ ɴᴀᴍᴇ : [𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙧 𝙗𝙤𝙩](http://t.me/Crazy_UrlUploaderBot)
 
-**Cʜᴀɴɴᴇʟ** : [ᴄʀᴀᴢʏ ʙᴏᴛᴢ](https://t.me/crazybotz)
+Cʜᴀɴɴᴇʟ** : [𝘾𝙧𝙖𝙯𝙮 𝙗𝙤𝙩𝙯](https://t.me/crazybotz)
 
-**Vᴇʀꜱɪᴏɴ** : [2.0 ʙᴇᴛᴀ](http://t.me/GreyMatter_Uploader_Bot)
+**Vᴇʀꜱɪᴏɴ** : [2.0 𝘽𝙚𝙩𝙖](http://t.me/Crazybotz)
 
-**Sᴇʀᴠᴇʀ** : [ʜᴇʀᴏᴋᴜ](https://heroku.com/)
+**Sᴇʀᴠᴇʀ** : [𝙃𝙚𝙧𝙪𝙠𝙤](https://heroku.com/)
 
-**Lᴀɴɢᴜᴀɢᴇ :** [Pʏᴛʜᴏɴ 3.10.2](https://www.python.org/)
+**Lᴀɴɢᴜᴀɢᴇ :** [𝙋𝙮𝙩𝙝𝙤𝙣 3.10.2](https://www.python.org/)
 
-**Fʀᴀᴍᴇᴡᴏʀᴋ :** [ᴘʏʀᴏɢᴀᴍ 2.0.30](https://docs.pyrogram.org/)
+**Fʀᴀᴍᴇᴡᴏʀᴋ :** [𝙋𝙮𝙧𝙤𝙜𝙧𝙖𝙢 2.0.30](https://docs.pyrogram.org/)
 
-**ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :** [ᴄʀᴀᴢʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/heartlesssn)**"""
+**ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :** [𝘾𝙧𝙖𝙯𝙮 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧](https://t.me/heartlesssn)**"""
 
 
     PROGRESS = """
@@ -83,16 +83,16 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
-        InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+        InlineKeyboardButton('💠  ʜᴇʟᴘ  💠', callback_data='help'),
+        InlineKeyboardButton('♻️  ᴀʙᴏᴜᴛ  ♻️', callback_data='about')
         ],[
-        InlineKeyboardButton('⭕ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⭕', url='t.me/crazybotz')
+        InlineKeyboardButton('⭕  ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  ⭕', url='t.me/crazybotz')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚠️ ʜᴏᴍᴇ ⚠️', callback_data='home'),
-        InlineKeyboardButton('⁉️ sᴇᴛᴛɪɴɢs ⁉️', callback_data='OpenSettings')
+        InlineKeyboardButton('⚠️  ʜᴏᴍᴇ  ⚠️', callback_data='home'),
+        InlineKeyboardButton('⁉️  sᴇᴛᴛɪɴɢs  ⁉️', callback_data='OpenSettings')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -102,7 +102,7 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('♨️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('⚠️ ᴄʟᴏsᴇ ⚠️', callback_data='close')
         ]]
     )
     TEXT = "**sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ**"
