@@ -16,4 +16,4 @@ filetype
 tldextract
 aiofiles
 pyromod
-yt-dlp -U
+yt-dlp
