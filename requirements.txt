@@ -17,3 +17,4 @@ tldextract
 aiofiles
 pyromod
 yt-dlp
+yt-dlp -U
