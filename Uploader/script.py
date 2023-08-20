@@ -76,17 +76,16 @@ Cʜᴀɴɴᴇʟ** : [𝘾𝙧𝙖𝙯𝙮 𝙗𝙤𝙩𝙯](https://t.me/crazybo
  👲 Status : <b>{}</b>
 """
 
-    PLANS = """** ₹100/ᴍᴏɴᴛʜ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ 
-ɴᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪᴍɪᴛꜱ & ɴᴏ ᴛɪᴍᴇ ʟɪᴍɪᴛꜱ.
+    PLANS = """**ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ꜱᴇʟꜰ ᴀᴛ ᴊᴜꜱᴛ 99 ₹ ᴘᴇʀ ᴍᴏɴᴛʜ... ɪᴛ'ꜱ ᴡᴏʀᴛʜ ᴀ ʟᴏᴛ 
 
-ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ꜰʀᴏᴍ @heartlesssn**"""
+ʀᴇᴍᴏᴠᴇ ᴀʟʟ ᴛʜᴇ ʟɪᴍɪᴛꜱ ✅**"""
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('💠  ʜᴇʟᴘ  💠', callback_data='help'),
         InlineKeyboardButton('♻️  ᴀʙᴏᴜᴛ  ♻️', callback_data='about')
         ],[
-        InlineKeyboardButton('⭕  ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  ⭕', url='t.me/crazybotz')
+        InlineKeyboardButton('📊  ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ᴘʟᴀɴ  📊', url='t.me/heartlesssn')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -103,6 +102,11 @@ Cʜᴀɴɴᴇʟ** : [𝘾𝙧𝙖𝙯𝙮 𝙗𝙤𝙩𝙯](https://t.me/crazybo
     BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('⚠️ ᴄʟᴏsᴇ ⚠️', callback_data='close')
+        ]]
+    )
+    PBUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('📊  ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ᴘʟᴀɴ', url='t.me/heartlesssn')
         ]]
     )
     TEXT = "**sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ**"
