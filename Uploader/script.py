@@ -118,14 +118,14 @@ Cʜᴀɴɴᴇʟ** : [𝘾𝙧𝙖𝙯𝙮 𝙗𝙤𝙩𝙯](https://t.me/crazybo
     ANNO_UPLOAD = " UploadinG📤 \n\n To  anonfiles.com "
     BAY_UPLOAD = " UploadinG📤 \n\n To  bayfiles.com "
     GO_FILE_UPLOAD = " 📤UploadinG📤 \n\n To  gofile.io "
-    DOWNLOAD_START = "ᴛʀʏɪɴɢ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⌛\n\n💮🌸 <i>{} 💮🌸</i>"
-    UPLOAD_START = "📤 Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀsᴇ Wᴀɪᴛ"
+    DOWNLOAD_START = "**ᴛʀʏɪɴɢ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⌛\n\n🎬 𝙁𝙞𝙡𝙚 𝙣𝙖𝙢𝙚 {} ..**"
+    UPLOAD_START = "**📤 Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀsᴇ Wᴀɪᴛ**"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = " JOIN : https://t.me/TGBotsCollection\nFor the List of Telegram Bots"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/GreyMatter_Owner'>@GreyMatter_Owner</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/heartlessn'>crazy</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Cᴜsᴛᴏᴍ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛʜᴜᴍʙɴᴀɪʟ sᴀᴠᴇᴅ. Tʜɪs ɪᴍᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴜsᴇᴅ ɪɴ ᴛʜᴇ ᴠɪᴅᴇᴏ / ғɪʟᴇ."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Cᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -159,17 +159,17 @@ Cʜᴀɴɴᴇʟ** : [𝘾𝙧𝙖𝙯𝙮 𝙗𝙤𝙩𝙯](https://t.me/crazybo
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
     EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://t.me/Crazybotz'>Crazybotz</a>"
-    EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
-You can use /rename command after receiving file to rename it with custom thumbnail support."""
-    CANCEL_STR = "Process Cancelled"
+    EXTRACT_ZIP_STEP_TWO = """**Select file_name to upload from the below options.
+You can use /rename command after receiving file to rename it with custom thumbnail support.**"""
+    CANCEL_STR = "**Process Cancelled**"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     FREE_USER_LIMIT_Q_SZE = """Cannot Process Free users only 1 request per 5 mins\n
 Upgrade your /plans to Remove Time Gaps and For link Processing"""
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Send me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
+    SLOW_URL_DECED = "**Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Send me a fast URL so that I can upload to Telegram, without me slowing down for other users.**"
+    FORCE_SUBSCRIBE_TEXT = "**<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>**"
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
-    CHECK_LINK = "Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʟɪɴᴋ ⌛"
+    CHECK_LINK = "**Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʟɪɴᴋ ⌛**"
 
-    ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
+    ADD_CAPTION_HELP = """**Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
-Ex: <a href='https://telegra.ph/file/68259e3c723b935e22e69.jpg'>See This!</a> 👇"""
+Ex: <a href='https://telegra.ph/file/68259e3c723b935e22e69.jpg'>See This!</a> 👇**"""
