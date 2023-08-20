@@ -43,17 +43,17 @@ async def button(bot, update):
     elif update.data == "showThumbnail":
         thumbnail = await db.get_thumbnail(update.from_user.id)
         if not thumbnail:
-            await update.answer("You didn't set any custom thumbnail!", show_alert=True)
+            await update.answer("**ʏᴏᴜ ᴅɪᴅɴ'ᴛ ꜱᴇᴛ ᴀɴʏ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ⁉️**", show_alert=True)
         else:
             await update.answer()
-            await bot.send_photo(update.message.chat.id, thumbnail, "Custom Thumbnail",
+            await bot.send_photo(update.message.chat.id, thumbnail, "ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ✅",
                                reply_markup=types.InlineKeyboardMarkup([[
-                                   types.InlineKeyboardButton("Delete Thumbnail",
+                                   types.InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ ❌",
                                                               callback_data="deleteThumbnail")
                                ]]))
     elif update.data == "deleteThumbnail":
         await db.set_thumbnail(update.from_user.id, None)
-        await update.answer("Okay, I deleted your custom thumbnail. Now I will apply default thumbnail.", show_alert=True)
+        await update.answer("**ᴏᴋᴀʏ, ɪ ᴅᴇʟᴇᴛᴇᴅ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ. ɴᴏᴡ ɪ ᴡɪʟʟ ᴀᴘᴘʟʏ ᴅᴇꜰᴀᴜʟᴛ ᴛʜᴜᴍʙɴᴀɪʟ.**", show_alert=True)
         await update.message.delete(True)
     elif update.data == "setThumbnail":
         await update.message.edit(
